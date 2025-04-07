@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e2bc3221-a44a-438a-b74b-f7822a4c5b43}</ProjectGuid>
+    <ProjectGuid>{98003fbe-ac07-4fd3-8902-636e711894ff}</ProjectGuid>
     <RootNamespace>Ex52</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Ex5-02</ProjectName>
