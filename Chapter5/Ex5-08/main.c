@@ -30,7 +30,7 @@ int main() {
 
 	default:
 		printf("알 수 없는 상태\n");
-		return 1; //비정상적 프로그램 종료
+		return 1; //비정상적 프로그램 종료를 의미함 (관습적 행동)
 
 	}
 	
