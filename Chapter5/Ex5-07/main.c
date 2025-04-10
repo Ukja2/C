@@ -8,21 +8,21 @@ int main() {
     scanf(" %c %c", &first, &second);
 
     // 첫 번째 결과가 'E'(외향적)인지 'I'(내향적)인지에 따라 출력
-    if (first == 'E') {
+    if (first == 'E' || first == 'e') {
         printf("외향적인 성격을 가지고 있습니다.\n");
-        if (second == 'S') {
+        if (second == 'S' || second == 's') {
             printf("현실적입니다.\n");
         }
-        else if (second == 'N') {
+        else if (second == 'N' || second == 'n') {
             printf("창의적입니다.\n");
         }
     }
-    else if (first == 'I') {
+    else if (first == 'I' || first == 'i') {
         printf("내향적인 성격을 가지고 있습니다.\n");
-        if (second == 'S') {
+        if (second == 'S' || second == 's') {
             printf("현실적입니다.\n");
         }
-        else if (second == 'N') {
+        else if (second == 'N' || second == 'n') {
             printf("창의적입니다.\n");
         }
     }
@@ -33,21 +33,21 @@ int main() {
     scanf(" %c %c", &third, &fourth);
 
     // 두 번째 결과가 'T'(사고형)인지 'F'(감정형)인지에 따라 출력
-    if (third == 'T') {
+    if (third == 'T' || third == 't') {
         printf("논리적이고 객관적으로 판단하는 사고형입니다.\n");
-        if (fourth == 'J') {
+        if (fourth == 'J' || fourth == 'j') {
             printf("계획적입니다.\n");
         }
-        else if (fourth == 'P') {
+        else if (fourth == 'P' || fourth == 'p') {
             printf("융통성 있습니다.\n");
         }
     }
-    else if (third == 'F') {
+    else if (third == 'F' || third == 'f') {
         printf("감정적이고 사람 중심적으로 판단하는 감정형입니다.\n");
-        if (fourth == 'J') {
+        if (fourth == 'J' || fourth == 'j') {
             printf("계획적입니다.\n");
         }
-        else if (fourth == 'P') {
+        else if (fourth == 'P' || fourth == 'p') {
             printf("융통성 있습니다.\n");
         }
     }
