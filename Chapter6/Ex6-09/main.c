@@ -5,8 +5,8 @@ int main() {
 
 	int i, j;
 
-	for (i = 0; i < 3: i + ) {
-		for (j = 0l j < 3; j++) {
+	for (i = 0; i < 3; i++) {
+		for (j = 0; j < 3; j++) {
 			printf("[%d, %d]", i, j);
 
 		}
