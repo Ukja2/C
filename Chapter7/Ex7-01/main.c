@@ -1,13 +1,8 @@
 #include <stdio.h>
 
-// 사용자 정의 함수 선언
+// 함수 원형(함수선언) <- main 밑에 함수를 구현 가능
 double triangleArea(double base, double height);
 
-// 함수 정의
-double triangleArea(double base, double height)
-{
-    return (base * height) / 2.0;  // 함수의 반환값
-}
 
 int main()
 {
@@ -24,4 +19,10 @@ int main()
 
     printf("삼각형의 넓이는 %.2lf\n",triangleArea(7.2, 55.5));
     return 0;
+}
+
+// 밑에 내려오려면 함수 원형이 제일 위에 있어야함, 중요!
+double triangleArea(double base, double height)
+{
+    return (base * height) / 2.0;  // 함수의 반환값
 }
