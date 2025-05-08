@@ -26,3 +26,4 @@ double triangleArea(double base, double height)
 {
     return (base * height) / 2.0;  // 함수의 반환값
 }
+
