@@ -21,5 +21,7 @@ int main()
     printf("삼각형의 밑변이 %.2lf, 높이가 %.2lf일 때\n", base, height);
     printf("삼각형의 넓이는 %.2lf입니다.\n", area);
 
+
+    printf("삼각형의 넓이는 %.2lf\n",triangleArea(7.2, 55.5));
     return 0;
 }
