@@ -1,6 +1,8 @@
 #include<stdio.h>
 void function1();
 void function2();
+void function3();
+
 
 int main() {
 
@@ -8,8 +10,9 @@ int main() {
 	int a = 5, b = 7;
 	function2(a, b);
 
+	function3();
 
-	return;
+	return 0;
 }
 
 void function2(int x, int y) {
@@ -21,4 +24,12 @@ void function1() {
 	printf("매개변수도 없고 반환 값도 없는 함수");
 	printf("매개변수 : 없음\n");
 	printf("반환값 없음 : void\n");
+}
+
+void function3() {
+	printf("매개변수가 없고, 반환 값이 있는 함수 \n");
+	printf("매개변수 : 없음 \n");
+	printf("반환값 있음 : 42\n");
+
+	return 42;
 }
