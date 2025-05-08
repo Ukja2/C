@@ -2,7 +2,7 @@
 void function1();
 void function2();
 void function3();
-
+void function4(int x, int y){}
 
 int main() {
 
@@ -12,6 +12,7 @@ int main() {
 
 	function3();
 
+	function4(a, b);
 	return 0;
 }
 
@@ -30,6 +31,12 @@ void function3() {
 	printf("매개변수가 없고, 반환 값이 있는 함수 \n");
 	printf("매개변수 : 없음 \n");
 	printf("반환값 있음 : 42\n");
+	
 
 	return 42;
+}
+
+void function(x,y) {
+	printf("두 개의 매개변수 : %d, %d \n", x, y);
+	printf("반환값 있음: %d\n"), x + y);
 }
