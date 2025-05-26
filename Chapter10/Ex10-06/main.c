@@ -8,8 +8,18 @@ int main()
     pnum = &num;      // pnum을 num의 주소로 초기화
 
     printf("*(pnum) = %d \n", *(pnum));       // num의 값 출력
-    printf("*(pnum++) = %d \n", *(pnum++));   // 값 출력 후 포인터 증가
-    printf("*(++pnum) = %d \n", *(++pnum));   // 포인터 증가 후 값 출력
+    printf("*(pnum) = %d \n", pnum);
 
+    printf("*(pnum++) = %d \n", *(pnum++));   // 값 출력 후 포인터 증가
+    printf("*(pnum) = %d \n", pnum);
+
+    printf("*(++pnum) = %d \n", *(++pnum));   // 포인터 증가 후 값 출력
+    printf("*(pnum) = %d \n", pnum);
+
+
+
+    printf("*(pnum) = %d\n", *(pnum));
+    printf("*(pnum--) = %d\n", *(pnum--));
+    printf("*(--pnum) = %d\n", *(--pnum));
     return 0;
 }
