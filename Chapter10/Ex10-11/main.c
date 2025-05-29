@@ -11,5 +11,19 @@ int main() {
 	printf("*pstr : %c\n", *pstr);
 	printf("pstr : %s\n", pstr);
 
+	
+	
+	for (int i = 4; i >= 0; i--) {
+		printf("%c", str[i]);  
+	}
+
+
+	for (int i = 4; i >= 0; i--) {
+		printf("%c", *(pstr + i));  
+	}
+
 	return 0;
+
+
+
 }
