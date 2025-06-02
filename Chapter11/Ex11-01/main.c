@@ -16,12 +16,20 @@ int main()
     printf("str3[12] = %s \n", str3);
     printf("str4[12] = %s \n", str4);
 
-    char str5[11] = "c language!";
+ /*   char str5[11] = "c language!";
 
  
     printf("str5[11] = ");
     for (int i = 0; i < 11; i++) {
         printf("%c", str5[i]);
+    }*/
+
+    printf("\n");
+    int i = 0;
+    prontf("str4[12]의 문자출력 = ");
+    while (str4[i] != NULL) { // while(words[i] != '\0')
+        printf("%c", str4[i]);
+        i++;
     }
     
     return 0;
