@@ -16,5 +16,13 @@ int main()
     printf("str3[12] = %s \n", str3);
     printf("str4[12] = %s \n", str4);
 
+    char str5[11] = "c language!";
+
+ 
+    printf("str5[11] = ");
+    for (int i = 0; i < 11; i++) {
+        printf("%c", str5[i]);
+    }
+    
     return 0;
 }
